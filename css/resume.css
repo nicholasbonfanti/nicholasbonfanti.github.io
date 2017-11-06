@@ -86,8 +86,8 @@ h2 {
       margin: auto auto 0;
       padding: 0.5rem; }
     #sideNav .navbar-brand .img-profile {
-      max-width: 10rem;
-      max-height: 10rem;
+      max-width: 12rem;
+      max-height: 125rem;
       border: 0.5rem solid rgba(255, 255, 255, 0.2); }
     #sideNav .navbar-collapse {
       display: flex;
@@ -128,14 +128,23 @@ section.resume-section {
   color: #3891BD !important; }
 
 .text-fatty {
-  font-weight: 700 !important; }  
+  font-weight: 700 !important;}  
   
 .text-styled {
   font-style: italic;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700 !important; }  
+  font-weight: 700 !important; }
+
+.text-styled2 {
+  font-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600 !important; }  
   
 a {
   color: #3891BD; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #1E4D65; }
+
+h1 .comp { display: none; }
+h1:hover .incomp { display: none; }
+h1:hover .comp { display: inline; }
