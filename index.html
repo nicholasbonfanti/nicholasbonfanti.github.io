@@ -23,7 +23,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
-
+      
+    <!-- Lightbox Stuff -->
+    <link href="lightbox/ekko-lightbox.css" rel="stylesheet">
+      
+      
   </head>
 
   <body id="page-top">
@@ -187,9 +191,9 @@
       </section>
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-		  
-		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <h2 class="mb-0">Projects</h2>
+		  <div class="subdescription mb-5">Click on a project title for a brief photo gallery</div>
+		  <!--<div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0"><span class="text-fatty">Master's</span> Thesis</h3>
               <div class="subheading mb-3">Numerical parametric analysis and experimental investigation of MFC-actuated trailing edges</div>
@@ -197,17 +201,72 @@
 			  Several scaling laws for the piezo-actuation effects were discovered, in good agreement with the experimental data.
 			  This project received funding from the EU's Horizon 2020 Program.</div>
               <div> <span class="text-styled2"><a href="https://www.politesi.polimi.it/bitstream/10589/136082/3/2017_10_Bonfanti.pdf">Full work avaiable here</a></span> </div>
+              <div> <span class="text-styled2"><a href="">Slideshow avaiable here (Italian)</a></span> </div>
 			</div>
 			<!-- <p></p>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2017</span>
             </div> -->
           </div>
+          
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <button type="button" class="mb-0 expentry text-left" data-toggle="collapse" data-target="#thesis"><span class="text-fatty">Master's</span> Thesis</button> <!-- &#128897 -->
+                <div class="subheading mb-3">Numerical parametric analysis and experimental investigation of MFC-actuated trailing edges</div>
+                    <div id="thesis" class="collapse">
+                        <div class="row justify-content-center">
+                            <div class="container"> <!-- <div class="col-md-8"> -->
+                                <div class="row align-items-center">
+                                    <a href="img/esploso.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Exploded view of the lamination sequence">
+                                        <img src="img/esploso.jpg" class="img-fluid">
+                                    </a>
+                                    <a href="img/pressafronte.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Heated press used for carbon fiber lamination">
+                                        <img src="img/pressafronte.jpg" class="img-fluid">
+                                    </a>
+                                    <a href="img/gallerialato.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Test section of the wind tunnel">
+                                        <img src="img/gallerialato.jpg" class="img-fluid">
+                                    </a>
+                                    <a href="img/visualplane.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Hypothetical full-scale installation">
+                                        <img src="img/visualplane.jpg" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="row align-items-center">
+                                    <a href="img/galleriain.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Piezo-actuated wing">
+                                        <img src="img/galleriain.jpg" class="img-fluid">
+                                    </a>
+                                    <a href="img/esempiocode.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Running simulation and code">
+                                        <img src="img/esempiocode.jpg" class="img-fluid">
+                                    </a>
+                                   <a href="img/workstation.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="My numerical and experimental workstations">
+                                        <img src="img/workstation.jpg" class="img-fluid">
+                                    </a>
+                                    <a href="img/cascata.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm rowmar"  data-title="Some numerical results">
+                                        <img src="img/cascata.jpg" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+</div>
+                    </div>
+                <div> I developed an aeroelastic numerical model for piezoelectric airfoil shape morphing, with a subsequent system construction in composite materials, and wind tunnel test.
+			  Several scaling laws for the piezo-actuation effects were discovered, in good agreement with the experimental data.
+			  This project received funding from the EU's Horizon 2020 Program.</div>
+              <div> <span class="text-styled2"><a href="https://www.politesi.polimi.it/bitstream/10589/136082/3/2017_10_Bonfanti.pdf">Full work avaiable here</a></span> </div>
+              <div> <span class="text-styled2"><a href="">Slideshow avaiable here (Italian)</a></span> </div>
+			<!-- <p></p>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2017</span>
+            </div> -->
+              </div>
+          </div>
 		  
 		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0"><span class="text-fatty">Aerodynamics</span> Project</h3>
+            <button type="button" class="mb-0 expentry text-left" data-toggle="collapse" data-target="#aerop1"><span class="text-fatty">Aerodynamics</span> Project</button>
               <div class="subheading mb-3">(CB)<sup>2</sup>: a GUI-based software for airfoil optimization</div>
+                <div id="aerop1" class="collapse">
+                    
+                </div>
 			  <div> This project consisted in the development of a easy-to-use software - called (CB)<sup>2</sup> - for airfoil optimization in MATLAB, in a team of 4 people.
 			  The software was later used by other students. My role was scope definition, interface design, and algorithm design.</div>
               <div> <span class="text-styled2"><a href="">Code avaiable here</a></span> </div>
@@ -259,7 +318,7 @@
             <div class="resume-date text-md-right">
               <span class="text-primary"> N/A </span>
             </div> -->
-          </div>
+         </div>
 		  
 		  
           <!-- <ul class="fa-ul mb-0">
@@ -291,7 +350,7 @@
               3<sup>rd</sup>
               Place - James Buchanan High School - Hackathon 2005</li>
           </ul> -->
-        </div>
+        
       </section>
 	  
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiences">
@@ -313,7 +372,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">&#9785 Not so much... (<span class="text-fatty">yet!</span>)</h3>
               <!--  <div class="subheading mb-3"> Various </div> -->
-              <p> I mainly focused my life on studying and learning since now. I have occasionally tutored people from 7th to 12th grade.</p>
+              <p> I mainly focused my life on studying and learning since now. I have occasionally tutored people from 7th to 12th grade, and used Photoshop for graphics and photo editing.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">December 1992 - Present</span>
@@ -329,11 +388,14 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-0">Skills</h2>
+            <div class="subdescription mb-5">Click on a category for a more detailed description</div>
 		    <div class="row">
 		      <div class="column"> 
-			  
-			    <div class="subheading mb-3">Languages</div>
+			    <button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#lang">Languages</button>
+                    <div id="lang" class="collapse mb-2">
+                        I'm an Italian native speaker, and I learned English both during school and travelling. I attended various MSc courses in English, and both my thesis and a significant portion of my lesson notes are written in English. The TOEIC certification was taken in September 2014.
+                    </div>
                 <ul class="fa-ul mb-5">
                   <li>
                   <i class="fa-li fa fa-check"></i>
@@ -345,7 +407,10 @@
 				  </li>
                 </ul>
 				
-				<div class="subheading mb-3">Experimental</div>
+				<button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#exper">Experimental</button>
+                    <div id="exper" class="collapse mb-2">
+                        During my thesis I carried on all the experimental activities. I had to choose appropriate cabon/glass fiber lamination sequences, produce them using a heated press, and test the resulting systems. The used wind tunnel was rather small (4 m open circuit) and completely operable by a single person.
+                    </div>
                 <ul class="fa-ul mb-5">
                   <li>
                     <i class="fa-li fa fa-check"></i>
@@ -353,7 +418,10 @@
 				  </li>
                 </ul>
 				
-                <div class="subheading mb-3">Softwares</div>
+                <button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#softw">Software</button>
+                    <div id="softw" class="collapse mb-2">
+                        I extensively used MATLAB during my academic career, from fast scripting to the development of GUI-based programs. I learned to use Photoshop for image editing as a personal passion. I generally use Google Docs when i need a WYSIWYG text editor or a spreadsheet environment. I used OpenFOAM only for 2D RANS simulations.
+                    </div>
                 <ul class="fa-ul mb-5">
                   <li>
                   <i class="fa-li fa fa-check"></i>
@@ -373,7 +441,10 @@
 			  
 		      <div class="column"> 
 			  
-			    <div class="subheading mb-3">Programming languages</div>
+			    <button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#proglang">Programming languages</button>
+                    <div id="proglang" class="collapse mb-2">
+                        I code mainly in MATLAB, a high-level interpreted language for mathematical purposes, and I extensively use LaTeX (I know it is a programming language only in a very broad sense). I used ANSI C mainly for the Informatics university course, and Fortran for Numerical Fluid Dynamics, developing a 1-dimensional high-resolution solver for Euler equations. I use HTML and CSS mainly for the development of this website.
+                    </div>
                 <!--<ul class="list-inline list-icons">
                 <li class="list-inline-item">
                 <i class="devicons devicons-html5"></i>
@@ -395,7 +466,10 @@
                 </ul>
 				
 				
-		        <div class="subheading mb-3">Operative systems</div>
+			    <button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#opsys">Operative systems</button>
+                    <div id="opsys" class="collapse mb-2">
+                        I am used to work with multiple operative systems, depending on my needs.
+                    </div>
                 <ul class="fa-ul mb-5">
                   <li>
                     <i class="fa-li fa fa-check"></i>
@@ -407,11 +481,14 @@
 				  </li>
                 </ul>
 				
-				<div class="subheading mb-3">Life skills</div>
+			    <button type="button" class="mb-2 expsubentry text-left" data-toggle="collapse" data-target="#lifesk">Life skills</button>
+                    <div id="lifesk" class="collapse mb-2">
+                        According to the World Health Organization (WHO) life skills are &laquo;abilities for adaptive and positive behaviour, that enable individuals to deal effectively with the demands and challenges of everyday life&raquo;.
+                    </div>
                 <ul class="fa-ul mb-5">
                   <li>
                     <i class="fa-li fa fa-check"></i>
-                    <span class="text-styled">From the WHO list</span> | Teamworking, Problem solving, Creative thinking, Critical thinking
+                    <span class="text-styled">From the WHO list</span> | Teamworking, Problem solving, Creative thinking, Critical thinking, Coping with emotions
 				  </li>
                 </ul>
 				
@@ -428,12 +505,11 @@
           <p class="mb-0">When I am at home, neither studying nor working on something or reading, I'm a <span class="text-styled">videogamer</span> and <span class="text-styled">TV series</span> lover.
 		  Other two interests of mine are <span class="text-styled">board game design</span> and <span class="text-styled">photography</span>. I'm also looking forward to start my own <span class="text-styled">beer brewing</span>.</p>
         </div>
+          
       </section>
 
 
-
-    </div>
-
+      
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -443,7 +519,17 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    
+    <!-- Lightbox scripts -->
+    <script src="lightbox/ekko-lightbox.js"></script>
 
+    <script type="text/javascript">
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+        });
+    </script> 
+      
   </body>
 
 </html>

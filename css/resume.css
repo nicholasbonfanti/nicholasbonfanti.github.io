@@ -39,6 +39,14 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 1.35rem; }
 
+.subdescription {
+  font-size: 1rem !important; 
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.35rem; }
+
+
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
@@ -55,6 +63,11 @@ h2 {
     float: left;
     width: 50%;
     padding: 10px;  }
+
+.columnin {
+    float: left;
+    width: 20%;
+    padding: 10px;  }
 	
 .row:after {
     content: "";
@@ -63,7 +76,28 @@ h2 {
 	
 @media (max-width: 992px) {
     .column {
-        width: 100%;  }  }
+        width: 100%;  }
+     }
+
+@media (max-width: 1192px) {
+    .columnin {
+        width: 30%;  }
+     }
+
+@media (max-width: 992px) {
+    .columnin {
+        width: 20%;  }
+     }
+
+@media (max-width: 892px) {
+    .columnin {
+        width: 25%;  }
+     }
+
+@media (max-width: 692px) {
+    .columnin {
+        width: 30%;  }
+     }
 	
 #sideNav .navbar-nav .nav-item .nav-link {
   font-family: 'Raleway', sans-serif; 
@@ -148,3 +182,73 @@ a {
 h1 .comp { display: none; }
 h1:hover .incomp { display: none; }
 h1:hover .comp { display: inline; }
+
+.expentry {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px 0px 0px -8px ;
+    font-size: 1.75rem;
+    color: #343a40; 
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border-color: transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.expsubentry {
+        text-transform: none;
+        font-weight: 600;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.35rem; 
+    color:#868e96;
+    margin: 0px 0px 0px -6px ;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border-color: transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.row-fluid{
+    white-space: nowrap;
+}
+.row-fluid .col-lg-3{
+    display: inline-block;
+}
+
+
+.img-gallery {
+      max-width: 15rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+
+
+.csize {
+    transition:transform 0.25s ease;
+}
+
+.csize:focus {
+    -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+    outline: none; // this one
+}
+
+.entry-content {
+overflow: visible !important;
+}
+
+button {
+  outline: none !important; // this one
+}
+
+.rowmar {
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+}
