@@ -98,6 +98,12 @@ h2 {
     .columnin {
         width: 30%;  }
      }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 1;    }
+    }
 	
 #sideNav .navbar-nav .nav-item .nav-link {
   font-family: 'Raleway', sans-serif; 
@@ -154,6 +160,8 @@ section.resume-section {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
+
+
 
 .bg-primary {
   background-color: #3891BD !important; }
@@ -251,4 +259,8 @@ button {
 .rowmar {
     margin-top:1.5%;
     margin-bottom: 1.5%;
+}
+
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
 }
